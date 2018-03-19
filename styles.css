@@ -1,0 +1,54 @@
+img {max-width:100%; display:inline-block; vertical-align:middle;}
+
+
+.nav-link:hover {
+	transition: color 1s;
+}
+
+.btn-outline-secondary:hover {
+	transition: background-color 1s;
+
+}
+
+
+
+ @keyframes bgFade {
+ 	from {background-color: #CBE9EF;}
+ 	to {background-color: #FFFFFF;}
+ }
+
+ .alert {
+ 	animation: bgFade 1s linear 0s alternate infinite;
+ }
+
+ .btn-primary:hover {
+ 	background-color: 1s;
+ }
+
+ p {
+ 	font-family: 'Montserrat', sans-serif;
+ }
+
+ h1 {
+ 	font-family: 'Playfair Display', serif;
+ }
+
+ h2 {
+ 	font-family: 'Playfair Display', serif;
+ }
+
+ h3 {
+ 	font-family: 'Playfair Display', serif;
+ }
+
+ h4 {
+ 	font-family: 'Playfair Display', serif;
+ }
+
+ h5 {
+ 	font-family: 'Playfair Display', serif;
+ }
+
+ h6 {
+ 	font-family: 'Playfair Display', serif;
+ }
