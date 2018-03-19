@@ -22,7 +22,15 @@ img {max-width:100%; display:inline-block; vertical-align:middle;}
  }
 
  .btn-primary:hover {
- 	background-color: 1s;
+ 	background-color: #E9ECEF;
+ 	color: #157EFB;
+ 	transition: all .5s;
+ }
+
+ .btn-dark:hover {
+ 	background-color: #FFFFFF;
+ 	color: #343A40;
+ 	transition: all .5s;
  }
 
  p {
@@ -51,4 +59,16 @@ img {max-width:100%; display:inline-block; vertical-align:middle;}
 
  h6 {
  	font-family: 'Playfair Display', serif;
+ }
+
+@media screen and (max-width: 480px) {
+ 	h1, h2, h3, h4, h5, h6 {text-align: center;}
+ }
+
+@media screen and (max-width: 480px) {
+ 	p {text-align: justify;}
+ }
+
+@media screen and (max-width: 1024px) {
+ 	img {display: block; margin: 0 auto;}
  }
